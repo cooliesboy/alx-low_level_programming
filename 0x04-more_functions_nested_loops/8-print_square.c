@@ -5,7 +5,7 @@
  * @size: size of the square
  * Return: void
  */
-void print_square(int size)
+void print_aquare(int size)
 {
 	if (size <= 0)
 	{
