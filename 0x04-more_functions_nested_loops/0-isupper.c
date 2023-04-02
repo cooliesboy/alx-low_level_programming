@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * _isupper - uppercase letters
  * @c: char to check
@@ -10,6 +10,6 @@ int isupper(char c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
-	else 
+	else
 		return (0);
 }
