@@ -30,7 +30,7 @@ int check_num(char *str)
  * main - prints the name of the program
  * @argc: count argguments
  * @argv: arguments
- * Return: always 0 (success), 1 (error)
+ * Return: always 0 (success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 		/*Condition if one of the number contains symbols that are not digits*/
 		else
 		{
-			printf("error\n");
+			printf("Error\n");
 			return (1);
 		}
 
